@@ -15,6 +15,10 @@ The Grammar::
 <variable> :: = 	a | b | c
 <digit> :: = 	0 | 1 | 2
 
+Implmentation specific for the language grammar:
+1. Spacing is important between keywords, digits, and variables.  However, it is not required before the use of a semi-colon or period.  ( a = b; is valid, but a=b; is not valid).
+2. The language is implemented case specific.  Keywords and variables must be lower case.
+
 Sample Program:
 program 
 begin
